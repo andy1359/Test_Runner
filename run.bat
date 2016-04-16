@@ -9,6 +9,7 @@ SET MAIN_CLASS=core.App
 ::=============================================
 ::========================================
 ::SET GITHUB_ACCOUNT=%1
+::edit
 ::SET WS_DIR=%2
 ::SET REPO_NAME=%3
 ::SET APP_VERSION=%4
@@ -32,7 +33,7 @@ git clone git@github.com:%GITHUB_ACCOUNT%/%REPO_NAME%.git
 
 CD %REPO_NAME%
 ::sleep 2
-
+::SET ARGS_01=%6
 CALL mvn package
 ECHO.
 ECHO Executing Java programm ...
