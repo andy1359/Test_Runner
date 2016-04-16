@@ -33,7 +33,7 @@ git clone git@github.com:%GITHUB_ACCOUNT%/%REPO_NAME%.git
 
 CD %REPO_NAME%
 ::sleep 2
-
+::SET ARGS_01=%6
 CALL mvn package
 ECHO.
 ECHO Executing Java programm ...
