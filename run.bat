@@ -9,6 +9,7 @@ SET MAIN_CLASS=core.App
 ::=============================================
 ::========================================
 ::SET GITHUB_ACCOUNT=%1
+::edit
 ::SET WS_DIR=%2
 ::SET REPO_NAME=%3
 ::SET APP_VERSION=%4
